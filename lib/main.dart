@@ -9,15 +9,7 @@ import 'dart:ui';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: 'AIzaSyDMyybDx2f33w9QqhwnNRX8ftbQl2f8yJI',
-      appId: '1:662637659615:android:60c9a1f7198f118efb306a',
-      messagingSenderId: '662637659615',
-      projectId: 'nayem-7e9a1',
-      storageBucket: 'nayem-7e9a1.appspot.com',
-    ),
-  );
+  
   runApp(const MyApp());
 }
 
